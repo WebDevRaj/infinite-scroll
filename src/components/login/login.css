@@ -1,0 +1,39 @@
+.login {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup input {
+    height: 30px;
+}
+
+.loginBtn {
+    width: 40%;
+    margin: auto;
+    background: rgb(148, 194, 143);
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form {
+        width: 100%;
+    }
+}
